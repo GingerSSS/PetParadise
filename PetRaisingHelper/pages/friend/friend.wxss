@@ -1,0 +1,31 @@
+.about-image{
+width: 150rpx;
+height: 150rpx;
+border-radius: 50%;
+}
+.about-image2{
+width: 150rpx;
+height: 150rpx;
+border-radius: 50%;
+}
+.ni{
+  border:dotted;
+  border-bottom-color: #000;
+  border-bottom-width: 3rpx;
+}
+.container{
+  height: 830rpx;
+  text-align: left;
+  border: dotted;
+  border-color: #000;
+  border-width: medium;
+  display: block;
+  align-items: center;
+}
+.container2{
+  position:fixed; 
+  bottom:0; 
+}
+text{
+  display: block;
+}

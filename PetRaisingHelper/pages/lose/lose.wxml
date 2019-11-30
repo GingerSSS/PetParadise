@@ -1,0 +1,39 @@
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+<text>萌宠姓名:</text>
+<input name="tip bindinput='bindKeyinput' 
+placeholder="输入萌宠姓名"/>
+</form>
+
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+<text>萌宠年龄:</text>
+<input name="tip bindinput='bindKeyinput' 
+placeholder="输入萌宠年龄"/>
+</form>
+
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+<text>萌宠性别:</text>
+<input name="tip bindinput='bindKeyinput' 
+placeholder="输入萌宠性别"/>
+</form>
+
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+<text>萌宠性格:</text>
+<input name="tip bindinput='bindKeyinput' 
+placeholder="填写萌宠性格"/>
+</form>
+
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+<text>萌宠爱好:</text>
+<input name="tip bindinput='bindKeyinput' 
+placeholder="填写萌宠爱好"/>
+</form>
+
+
+<view class="container" style="padding:1rem;">
+    <button type="primary"bindtap="chooseimage">获取图片</button>
+    <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 100%; height: 450rpx;margin:1rem 0;"/> 
+</view>
+<navigator style="display:inline;"
+url="/pages/pet/pet">
+<button formType="submit">确定</button></navigator>
+<text>{{tip}}</text>

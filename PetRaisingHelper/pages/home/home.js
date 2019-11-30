@@ -1,0 +1,44 @@
+Page({
+  data:{
+    pictureList:[
+      {
+        imagePath:"/images/home-ppt1.jpg"
+      },
+      {
+        imagePath: "/images/home-ppt2.jpg"
+      },
+      {
+        imagePath: "/images/home-ppt3.jpg"
+      },
+      {
+        imagePath: "/images/home-ppt4.jpg"
+      },
+      {
+        imagePath: "/images/home-ppt5.jpg"
+      },
+      {
+        imagePath: "/images/home-ppt6.jpg"
+      }
+    ],
+  
+    
+
+  videoList:[
+{
+      videoPath: "http://ugcyd.qq.com/t0648vjml6d.mp4?sdtfrom=v1105&guid=72c54a2161b0c66858b9d377ab9b8aab&vkey=0A0E926877BF30E4D97CFEC961FBD5D4BD9EBC721B047E9A735EC32A9936A84401D32954E3DAF6C4492633CF0E63BA10DC072A9DFF36015B686FA7C37EA57D36D5DCBF9BF159733C79B662D390F45B465BC0035859DE216547ADCD75FB4320CA47440EB33DC34C2B1977ED5012E0D7D8B779946BE3DAAF9E"
+},
+    {
+      videoPath: "http://ugcyd.qq.com/h0536qghalb.p712.1.mp4?sdtfrom=v1010&guid=72c54a2161b0c66858b9d377ab9b8aab&vkey=16DC9E850F6122F44E664F4494F73B66AAF21567C4DC5C3A26EC0D0F773955EC66782E9B02B619D29B95AB03538B925978B37A6C92D96607DCE08E33233F1186EB4446830FF4F529B85696966B969BE9AC92D41A8D8365A97780458BB82C2BA4A11AAF6EAAC9AD553BB9AD1F5843305C516E113073BC0627" 
+    },
+    {
+      videoPath: "http://ugcyd.qq.com/t0521ar15ak.p712.1.mp4?sdtfrom=v1010&guid=72c54a2161b0c66858b9d377ab9b8aab&vkey=B0AF13DA50E6778B9EB08A4ECD42C15F263FA391A2C178829E12EA3666B2B6E2FBB514E238161911D424AE9DF500D107BC1DAA3B8EF81D4EE6EF1AEED9AE187C478F5D1815997D0A8ECEC14433ABDC40D3D17378532BE3D825B65D182F60D79AC984CB99A3BE3E103AF5BB6230E64582DB5010F1BE761EF0" 
+    }
+  ],
+
+
+ videoErrorCallback: function (e) {
+    console.log('视频错误信息:' + e.detail.errMsg);
+  }
+
+  }
+})

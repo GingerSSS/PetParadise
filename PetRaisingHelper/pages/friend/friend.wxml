@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='ni'><image src="{{thisweek.imagePath1}}"  class='about-image2'></image>{{thisweek.name1}}</view>
+<view class='ni'><image src="{{thisweek.imagePath2}}"  class='about-image2'></image>{{thisweek.name2}}</view>
+<view class='ni'><image src="{{thisweek.imagePath3}}"  class='about-image2'></image>{{thisweek.name3}}</view>
+<view class='ni'><image src="{{thisweek.imagePath4}}"  class='about-image2'></image>{{thisweek.name4}}</view>
+<view class='ni'><image src="{{thisweek.imagePath5}}"  class='about-image2'></image>{{thisweek.name5}}</view>
+</view>

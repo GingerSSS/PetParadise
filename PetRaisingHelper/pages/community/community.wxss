@@ -1,0 +1,38 @@
+.about-image{
+width: 150rpx;
+height: 150rpx;
+}
+.about-image2{
+width: 150rpx;
+height: 150rpx;
+}
+.icon{
+width: 150rpx;
+height: 150rpx;
+}
+.container{
+height: 900rpx;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.container2{
+position:fixed; 
+bottom:0; 
+}
+.service_selection .is_checked{ 
+border: 1px solid #FE0002 ; 
+color: #FE0002 ; 
+background: #fff; 
+} 
+.service_selection .normal{ 
+border: none; 
+color: #000; 
+background: #60F4F4; 
+} 
+
+.btn-style{
+text-align:left;
+}

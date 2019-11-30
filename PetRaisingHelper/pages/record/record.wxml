@@ -1,0 +1,11 @@
+<view class="ly">
+<image class='icon'src="/images/lingyang.png"></image>
+<text decode='{{true}}'>{{thisweek.lingyang1}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>{{thisweek.lingyang2}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+</view>
+<view class='zs'>
+<image class='icon'src="/images/zoushi.png"></image>
+<text decode='{{true}}'>{{thisweek.zoushi1}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>{{thisweek.zoushi2}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>{{thisweek.zoushi3}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+</view>

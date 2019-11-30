@@ -1,0 +1,18 @@
+<view><image class='about-image2' src="{{thisweek.imagePath}}"></image>
+<text decode='{{true}}'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{thisweek.name}}</text>
+<text decode='{{true}}'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{thisweek.num}}</text>
+</view>
+<view class="{{isChecked?'is_checked':'normal'}}" bindtap="serviceSelection">
+<button class='btn-style'>医院</button><button class='btn-style'>领养</button>
+<button class='btn-style'>交流</button>
+</view>
+<view class='container'>
+<navigator style="display:inline;"
+url="/pages/note/note">
+<text>{{thisweek.tie1}}</text>
+</navigator>
+<text>{{thisweek.tie2}}</text>
+
+
+
+</view>

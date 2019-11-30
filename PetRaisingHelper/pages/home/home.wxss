@@ -1,0 +1,24 @@
+.container{
+  text-align: center;
+  align-items: center;
+}
+
+.pictures{
+  display: flex;
+}
+
+.pictures-image{
+  width:750rpx;
+  height:450rpx;
+ 
+}
+
+.videostyle{
+width: 750rpx;
+}
+
+.pictures-imagefenge{
+  width: 90rpx;
+  height: 50rpx;
+}
+

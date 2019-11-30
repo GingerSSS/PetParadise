@@ -1,0 +1,23 @@
+<view >
+<swiper style='height:230px;'indicator-dots='{{true}}'>
+<swiper-item class='piutures' wx:for="{{pictureList}}">
+<image class='pictures-image' src='{{item.imagePath}}' ></image></swiper-item>
+</swiper>
+</view>
+<view >
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+<image style='width: 75rpx;height: 80rpx;' class='pictures-imagefenge' src='/images/fenge1.jpg' ></image>
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+<image style='width: 75rpx;height: 80rpx;' class='pictures-imagefenge' src='/images/fenge2.jpg' ></image>
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+<image style='width: 75rpx;height: 80rpx;' class='pictures-imagefenge' src='/images/fenge3.jpg' ></image>
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+<image style='width: 75rpx;height: 80rpx;'class='pictures-imagefenge' src='/images/fenge4.jpg' ></image>
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+<image style='width: 75rpx;height: 80rpx;' class='pictures-imagefenge' src='/images/fenge5.jpg' ></image>
+<image style='width: 60rpx;height: 60rpx;' class='pictures-imagefenge' src='/images/diandian.jpg' ></image>
+
+</view>
+<view >
+<video class='videostyle' wx:for="{{videoList}}" src='{{item.videoPath}}' binderror="{{videoErrorCallback}}"></video>
+</view>

@@ -1,0 +1,13 @@
+<view class='container'>
+<image class='about-image2' 
+src="/images/cw8.png"></image>
+</view>
+<navigator style="display:inline;"
+url="/pages/information/information"><button>我的信息</button></navigator>
+<navigator style="display:inline;"
+url="/pages/friend/friend"><button>我的好友</button></navigator>
+<navigator style="display:inline;"
+url="/pages/friend/friend"><button>我的关注</button></navigator>
+<navigator style="display:inline;"
+url="/pages/record/record"><button>我的记录</button></navigator>
+

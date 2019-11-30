@@ -1,0 +1,25 @@
+<view class='container'>
+<view class="userinfo">
+<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+    </block>
+  </view>
+</view>
+<view class='zz'>
+<image class='about-image3' src="/images/nicheng.png"></image>
+<text decode='{{true}}'  class="userinfo-nickname">\n\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{userInfo.nickName}}</text>
+</view>
+<view class='zz'>
+<image class='about-image3' src="/images/nianling.png"></image>
+<text decode='{{true}}'>\n\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{thisweek.age}}</text>
+</view>
+<view class='zz'>
+<image class='about-image3' src="/images/pianhao.png"></image>
+<text decode='{{true}}'>\n\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{thisweek.temp}}</text>
+</view>
+<view class='zz'>
+<image class='about-image3' src="/images/geqian.png"></image>
+<text decode='{{true}}'>\n\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{thisweek.like}}</text>
+</view>

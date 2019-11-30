@@ -1,0 +1,58 @@
+{
+  "pages": [
+  "pages/home/home",
+  "pages/my/my",
+  "pages/pet/pet",
+  "pages/community/community",
+  "pages/map/map",
+  "pages/note/note",
+  "pages/lose/lose",
+  "pages/adopt/adopt",
+  "pages/friend/friend",
+  "pages/information/information",
+  "pages/record/record",
+  "pages/lingyanglist/lingyanglist",
+  "pages/zoushilist/zoushilist"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/pet/pet",
+        "iconPath": "images/pet.jpg",
+        "selectedIconPath": "images/pet-choosen.jpg"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/map.jpg",
+        "selectedIconPath": "images/map-choosen.jpg"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.jpg",
+        "selectedIconPath": "images/home-choosen.jpg"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "images/community.jpg",
+        "selectedIconPath": "images/community-choosen.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/my.jpg",
+        "selectedIconPath": "images/my-choosen.jpg"
+      }
+    ]
+  },
+ 
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "Pet",
+  "navigationBarTextStyle": "black"
+},
+"networkTimeout": {
+  "request": 10000,
+  "downloadFile": 10000
+},
+"debug": true
+}

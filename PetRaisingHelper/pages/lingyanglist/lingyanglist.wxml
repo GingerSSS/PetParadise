@@ -1,0 +1,8 @@
+<view class='info' wx:for="{{informationList}}">
+<image class='pet-image' src='{{item.ImagePath}}'></image>
+<view class='details'>
+<text>{{index+1}}:</text>
+<text>{{item.name}}</text>
+<text>{{item.age}}</text>
+</view>
+</view>

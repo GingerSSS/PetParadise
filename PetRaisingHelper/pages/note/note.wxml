@@ -1,0 +1,10 @@
+<text>说出你家中的小宠物趣事</text>
+<form bindsubmit="formBindsubmit" bindreset="formReset" class='container'>
+
+<input name="tip" bindinput='bindKeyinput' 
+placeholder="请输入"/>
+
+<button formType="submit">发送</button>
+<text>{{tip}}</text>
+</form>
+

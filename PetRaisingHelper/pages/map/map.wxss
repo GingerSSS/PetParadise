@@ -1,0 +1,21 @@
+.about-image{
+width: 150rpx;
+height: 150rpx;
+border-radius: 50%;
+}
+.container{
+  height: 900rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container2{
+  position:fixed; 
+  bottom:0; 
+}
+text{
+  display: block;
+}
+

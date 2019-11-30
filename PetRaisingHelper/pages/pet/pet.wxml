@@ -1,0 +1,38 @@
+<view class='container'>
+<image class='about-image2'
+src="/images/cat.jpg"></image>
+
+<view>
+<navigator style="display:inline;"
+url="/pages/adopt/adopt">
+<image class='icon0'src="/images/fabu.png"></image>
+<text decode='{{true}}'>领养&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text></navigator>
+<navigator style="display:inline;"
+url="/pages/lose/lose">
+<text decode='{{true}}'>走失&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text></navigator>
+</view>
+<view>
+<navigator style="display:inline;"
+url="/pages/lingyanglist/lingyanglist">
+<image class='icon'src="/images/lingyang.png"></image></navigator>
+<text decode='{{true}}'>猫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>狗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>鼠&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>鸟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>猪</text>
+</view>
+<view>
+<navigator style="display:inline;"
+url="/pages/zoushilist/zoushilist">
+<image class='icon' src="/images/zoushi.png"></image></navigator>
+<text decode='{{true}}'>猫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>狗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>鼠&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>鸟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<text decode='{{true}}'>猪</text>
+</view>
+
+
+</view>
+
+ 
